@@ -91,6 +91,7 @@ Example app listening on port 3000
 
 ### Example Payloads
 
+**POST /api/products**<br>
 To create a new product (send as JSON):
 
 ```bash
@@ -101,6 +102,7 @@ To create a new product (send as JSON):
 }
 ```
 
+**PUT /api/products/:id**<br>
 To update an existing product (send as JSON):
 
 ```bash
